@@ -74,7 +74,6 @@ The output will be in the `dist/` folder.
 Note_App/
 ├── public/                      # Static assets
 │   ├── favicon.svg              # Browser tab icon
-│   ├── icons.svg                # SVG sprite icons
 │   ├── screenshot-home.png      # Home screen preview
 │   ├── screenshot-dark.png      # Dark mode preview
 │   ├── screenshot-detail.png    # Note detail preview
