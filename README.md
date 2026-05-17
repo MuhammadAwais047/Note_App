@@ -32,7 +32,9 @@ The app scales fluidly across all smartphone sizes:
 
 ## 📸 Screenshots
 
-<!-- Screenshots coming soon -->
+| Light Mode | Dark Mode | Note Detail | Edit Note |
+|:-----------:|:----------:|:-----------:|:---------:|
+| ![Light](public/screenshot-home.png) | ![Dark](public/screenshot-dark.png) | ![Detail](public/screenshot-detail.png) | ![Edit](public/screenshot-edit.png) |
 
 
 ## 🚀 Getting Started
@@ -71,6 +73,10 @@ The output will be in the `dist/` folder.
 ```
 Note_App/
 ├── public/                  # Static assets & screenshots
+│   ├── screenshot-home.png
+│   ├── screenshot-dark.png
+│   ├── screenshot-detail.png
+│   └── screenshot-edit.png
 ├── src/
 │   ├── hooks/
 │   │   └── useNotes.ts      # Custom hook for CRUD + localStorage
