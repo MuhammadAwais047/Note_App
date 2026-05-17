@@ -2,9 +2,6 @@
 
 A beautiful, fully responsive notes application built with **React + TypeScript + Vite**, inspired by a Figma community design. Features fluid responsive sizing, dark mode, smooth animations, and full CRUD with localStorage persistence.
 
-![Home Screen Light](public/screenshot-home.svg)
-![Home Screen Dark](public/screenshot-dark.svg)
-
 ## ✨ Features
 
 | Feature | Description |
@@ -35,9 +32,8 @@ The app scales fluidly across all smartphone sizes:
 
 ## 📸 Screenshots
 
-| Light Mode | Dark Mode | Note Detail | Edit Note |
-|:-----------:|:----------:|:-----------:|:---------:|
-| ![Light](public/screenshot-home.svg) | ![Dark](public/screenshot-dark.svg) | ![Detail](public/screenshot-detail.svg) | ![Edit](public/screenshot-edit.svg) |
+<!-- Screenshots coming soon -->
+
 
 ## 🚀 Getting Started
 
@@ -75,10 +71,6 @@ The output will be in the `dist/` folder.
 ```
 Note_App/
 ├── public/                  # Static assets & screenshots
-│   ├── screenshot-home.svg
-│   ├── screenshot-dark.svg
-│   ├── screenshot-detail.svg
-│   └── screenshot-edit.svg
 ├── src/
 │   ├── hooks/
 │   │   └── useNotes.ts      # Custom hook for CRUD + localStorage
