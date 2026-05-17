@@ -72,23 +72,28 @@ The output will be in the `dist/` folder.
 
 ```
 Note_App/
-├── public/                  # Static assets & screenshots
-│   ├── screenshot-home.png
-│   ├── screenshot-dark.png
-│   ├── screenshot-detail.png
-│   └── screenshot-edit.png
+├── public/                      # Static assets
+│   ├── favicon.svg              # Browser tab icon
+│   ├── icons.svg                # SVG sprite icons
+│   ├── screenshot-home.png      # Home screen preview
+│   ├── screenshot-dark.png      # Dark mode preview
+│   ├── screenshot-detail.png    # Note detail preview
+│   └── screenshot-edit.png      # Edit screen preview
 ├── src/
 │   ├── hooks/
-│   │   └── useNotes.ts      # Custom hook for CRUD + localStorage
-│   ├── App.tsx              # Main app component with all screens
-│   ├── App.css              # Complete styles (responsive, animations, themes)
-│   ├── data.ts              # Types, seed data, and constants
-│   ├── index.css            # Global reset and base styles
-│   └── main.tsx             # Entry point
-├── index.html
-├── package.json
-├── tsconfig.json
-└── vite.config.ts
+│   │   └── useNotes.ts          # Custom hook for CRUD + localStorage
+│   ├── App.tsx                  # Main app component with all screens
+│   ├── App.css                  # Complete styles (responsive, animations, themes)
+│   ├── data.ts                  # Types, seed data, and constants
+│   ├── index.css                # Global reset and base styles
+│   └── main.tsx                 # Entry point
+├── index.html                   # HTML template
+├── eslint.config.js             # ESLint configuration
+├── package.json                 # Dependencies & scripts
+├── vite.config.ts               # Vite build configuration
+├── tsconfig.json                # TypeScript config (root)
+├── tsconfig.app.json            # TypeScript config (app)
+└── tsconfig.node.json           # TypeScript config (Node)
 ```
 
 ## 🛠️ Tech Stack
