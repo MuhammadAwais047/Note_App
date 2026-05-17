@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="896" viewBox="0 0 414 896">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08"/>
+    </filter>
+    <filter id="fabShadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="-5" dy="5" stdDeviation="10" flood-opacity="0.4"/>
+    </filter>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.12)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="414" height="896" fill="#e5e5e5" rx="30"/>
+  <!-- Status bar area -->
+  <rect x="30" y="12" width="180" height="12" rx="6" fill="#252525" opacity="0.3"/>
+  <rect x="340" y="14" width="50" height="8" rx="4" fill="#252525" opacity="0.3"/>
+  <!-- Header -->
+  <text x="20" y="72" font-family="Nunito, sans-serif" font-size="43" font-weight="600" fill="#000">Notes</text>
+  <!-- Search icon -->
+  <rect x="324" y="40" width="50" height="50" rx="15" fill="#3b3b3b"/>
+  <circle cx="344" cy="60" r="8" stroke="#fff" stroke-width="2" fill="none"/>
+  <line x1="350" y1="66" x2="356" y2="72" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <!-- Moon icon -->
+  <rect x="270" y="40" width="50" height="50" rx="15" fill="#3b3b3b"/>
+  <path d="M296 48a9 9 0 0 0-9 9 7 7 0 0 0 7 7 7 7 0 0 0 7-7 9 9 0 0 1-5-9z" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Card 1 - Pink -->
+  <g filter="url(#shadow)">
+    <rect x="16" y="105" width="382" height="110" rx="12" fill="#ff9e9e"/>
+    <rect x="16" y="105" width="382" height="110" rx="12" fill="url(#grad)"/>
+    <text x="34" y="141" font-family="Nunito, sans-serif" font-size="25" font-weight="400" fill="#000">UI concepts worth existing</text>
+    <text x="34" y="200" font-family="Nunito, sans-serif" font-size="12" fill="#000" opacity="0.5">Today, 10:30 AM</text>
+  </g>
+  <!-- Card 2 - Salmon -->
+  <g filter="url(#shadow)">
+    <rect x="16" y="229" width="382" height="157" rx="12" fill="#ffb08e"/>
+    <rect x="16" y="229" width="382" height="157" rx="12" fill="url(#grad)"/>
+    <text x="34" y="265" font-family="Nunito, sans-serif" font-size="25" font-weight="400" fill="#000">Book Review: The Design of</text>
+    <text x="34" y="295" font-family="Nunito, sans-serif" font-size="25" font-weight="400" fill="#000">Everyday Things by Don Norman</text>
+    <text x="34" y="370" font-family="Nunito, sans-serif" font-size="12" fill="#000" opacity="0.5">Yesterday</text>
+  </g>
+  <!-- Card 3 - Green -->
+  <g filter="url(#shadow)">
+    <rect x="16" y="400" width="382" height="123" rx="12" fill="#a8e6a3"/>
+    <rect x="16" y="400" width="382" height="123" rx="12" fill="url(#grad)"/>
+    <text x="34" y="436" font-family="Nunito, sans-serif" font-size="25" font-weight="400" fill="#000">Animes produced by Ufotable</text>
+    <text x="34" y="506" font-family="Nunito, sans-serif" font-size="12" fill="#000" opacity="0.5">2 days ago</text>
+  </g>
+  <!-- Card 4 - Yellow -->
+  <g filter="url(#shadow)">
+    <rect x="16" y="537" width="382" height="110" rx="12" fill="#ffe082"/>
+    <rect x="16" y="537" width="382" height="110" rx="12" fill="url(#grad)"/>
+    <text x="34" y="573" font-family="Nunito, sans-serif" font-size="25" font-weight="400" fill="#000">Mangas planned to read</text>
+    <text x="34" y="632" font-family="Nunito, sans-serif" font-size="12" fill="#000" opacity="0.5">3 days ago</text>
+  </g>
+  <!-- Card 5 - Teal -->
+  <g filter="url(#shadow)">
+    <rect x="16" y="661" width="382" height="120" rx="12" fill="#80deea"/>
+    <rect x="16" y="661" width="382" height="120" rx="12" fill="url(#grad)"/>
+    <text x="34" y="697" font-family="Nunito, sans-serif" font-size="25" font-weight="400" fill="#000">Awesome tweets collection</text>
+    <text x="34" y="766" font-family="Nunito, sans-serif" font-size="12" fill="#000" opacity="0.5">5 days ago</text>
+  </g>
+  <!-- FAB -->
+  <g filter="url(#fabShadow)">
+    <circle cx="374" cy="830" r="35" fill="#252525"/>
+    <line x1="361" y1="830" x2="387" y2="830" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    <line x1="374" y1="817" x2="374" y2="843" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

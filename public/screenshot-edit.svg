@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="896" viewBox="0 0 414 896">
+  <rect width="414" height="896" fill="#fff" rx="30"/>
+  <!-- Status bar -->
+  <rect x="30" y="12" width="180" height="12" rx="6" fill="#000" opacity="0.2"/>
+  <rect x="340" y="14" width="50" height="8" rx="4" fill="#000" opacity="0.2"/>
+  <!-- Header -->
+  <rect x="16" y="40" width="50" height="50" rx="15" fill="#3b3b3b"/>
+  <path d="M24 60l6-6 6 6M24 60l6 6 6-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="155" y="72" font-family="Nunito, sans-serif" font-size="20" font-weight="600" fill="#1a1a1a" text-anchor="middle">Edit Note</text>
+  <rect x="348" y="40" width="50" height="50" rx="15" fill="#3b3b3b"/>
+  <path d="M370 60l4 4-10 10-4-4 10-10zM368 58l4 4" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Color Picker -->
+  <text x="24" y="125" font-family="Nunito, sans-serif" font-size="13" font-weight="600" fill="#1a1a1a" opacity="0.5" letter-spacing="0.5">COLOR</text>
+  <circle cx="40" cy="160" r="18" fill="#ff9e9e" stroke="#1a1a1a" stroke-width="3"/>
+  <circle cx="96" cy="160" r="18" fill="#ffb08e"/>
+  <circle cx="152" cy="160" r="18" fill="#a8e6a3"/>
+  <circle cx="208" cy="160" r="18" fill="#ffe082"/>
+  <circle cx="264" cy="160" r="18" fill="#80deea"/>
+  <circle cx="320" cy="160" r="18" fill="#ce93d8"/>
+  <!-- Category -->
+  <text x="24" y="205" font-family="Nunito, sans-serif" font-size="13" font-weight="600" fill="#1a1a1a" opacity="0.5" letter-spacing="0.5">CATEGORY</text>
+  <rect x="24" y="218" width="366" height="44" rx="12" fill="#f0f0f0"/>
+  <text x="38" y="246" font-family="Nunito, sans-serif" font-size="16" fill="#1a1a1a">General</text>
+  <path d="M370 236l-6 6-6-6" stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Title -->
+  <text x="24" y="290" font-family="Nunito, sans-serif" font-size="13" font-weight="600" fill="#1a1a1a" opacity="0.5" letter-spacing="0.5">TITLE</text>
+  <rect x="24" y="303" width="366" height="44" rx="12" fill="#f0f0f0"/>
+  <text x="38" y="331" font-family="Nunito, sans-serif" font-size="16" fill="#1a1a1a" opacity="0.7">UI concepts worth existing</text>
+  <!-- Content -->
+  <text x="24" y="375" font-family="Nunito, sans-serif" font-size="13" font-weight="600" fill="#1a1a1a" opacity="0.5" letter-spacing="0.5">CONTENT</text>
+  <rect x="24" y="388" width="366" height="200" rx="12" fill="#f0f0f0"/>
+  <text x="38" y="416" font-family="Nunito, sans-serif" font-size="16" fill="#1a1a1a" opacity="0.7">There are certainly UX patterns that</text>
+  <text x="38" y="440" font-family="Nunito, sans-serif" font-size="16" fill="#1a1a1a" opacity="0.7">are worth trying with the new layout</text>
+  <text x="38" y="464" font-family="Nunito, sans-serif" font-size="16" fill="#1a1a1a" opacity="0.7">guidelines for iOS 13 and up.</text>
+</svg>

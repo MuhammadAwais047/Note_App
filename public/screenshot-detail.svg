@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="896" viewBox="0 0 414 896">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="414" height="896" fill="#fff" rx="30"/>
+  <!-- Status bar -->
+  <rect x="30" y="12" width="180" height="12" rx="6" fill="#000" opacity="0.2"/>
+  <rect x="340" y="14" width="50" height="8" rx="4" fill="#000" opacity="0.2"/>
+  <!-- Header -->
+  <rect x="16" y="40" width="50" height="50" rx="15" fill="#3b3b3b"/>
+  <path d="M30 70l6-6 6 6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="348" y="40" width="50" height="50" rx="15" fill="#3b3b3b"/>
+  <path d="M362 52.5a7.5 7.5 0 0 0-7.5 7.5 5.8 5.8 0 0 0 5.8 5.8 5.8 5.8 0 0 0 5.8-5.8 7.5 7.5 0 0 0-4.1-7.5z" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Color bar -->
+  <rect x="24" y="106" width="366" height="4" rx="2" fill="#ff9e9e" opacity="0.7"/>
+  <!-- Title -->
+  <text x="24" y="155" font-family="Nunito, sans-serif" font-size="35" font-weight="400" fill="#1a1a1a">UI concepts worth existing</text>
+  <!-- Meta -->
+  <text x="24" y="185" font-family="Nunito, sans-serif" font-size="14" fill="#1a1a1a" opacity="0.5">Today, 10:30 AM</text>
+  <rect x="160" y="172" width="65" height="22" rx="20" fill="#ff9e9e"/>
+  <text x="166" y="187" font-family="Nunito, sans-serif" font-size="12" font-weight="600" fill="#000">General</text>
+  <!-- Body -->
+  <text x="24" y="225" font-family="Nunito, sans-serif" font-size="23" font-weight="400" fill="#1a1a1a" opacity="0.85">
+    <tspan x="24" dy="0">There are certainly UX patterns that</tspan>
+    <tspan x="24" dy="35">are worth trying with the new layout</tspan>
+    <tspan x="24" dy="35">guidelines for iOS 13 and up.</tspan>
+    <tspan x="24" dy="35">Using SF Symbols and supporting</tspan>
+    <tspan x="24" dy="35">dark mode are great start.</tspan>
+  </text>
+  <!-- Delete button at bottom -->
+  <rect x="292" y="820" width="98" height="36" rx="10" fill="rgba(255,60,60,0.1)"/>
+  <path d="M306 838l12-12M306 826l12 12" stroke="#e04040" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="316" y="843" font-family="Nunito, sans-serif" font-size="13" font-weight="600" fill="#e04040">Delete</text>
+</svg>
