@@ -209,6 +209,7 @@ function App() {
                 ))}
               </div>
             )}
+            <p className="storage-note">Notes are stored locally on this device only.</p>
           </div>
 
           <button className="fab" onClick={startCreate} aria-label="Add note">

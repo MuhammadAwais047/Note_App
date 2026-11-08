@@ -30,3 +30,10 @@ test-results/
 # Windows system files
 desktop.ini
 *.ini
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key

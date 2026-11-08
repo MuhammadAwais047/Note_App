@@ -325,6 +325,14 @@
   gap: clamp(10px, 3vw, 14px);
 }
 
+.storage-note {
+  margin: 10px 0 0;
+  font-size: 11px;
+  line-height: 1.4;
+  text-align: center;
+  opacity: 0.4;
+}
+
 .home-empty {
   display: flex;
   align-items: center;
